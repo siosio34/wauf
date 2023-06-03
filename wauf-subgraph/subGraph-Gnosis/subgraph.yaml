@@ -1,0 +1,24 @@
+specVersion: 0.0.5
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: EventEmitter
+    network: gnosis
+    source:
+      address: "0x9079265ebc2ec6328e72E39123B2591cdF8Ed962"
+      abi: EventEmitter
+      startBlock: 28273279
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - SupplyChainLog
+      abis:
+        - name: EventEmitter
+          file: ./abis/EventEmitter.json
+      eventHandlers:
+        - event: SupplyChainLog(string,string)
+          handler: handleSupplyChainLog
+      file: ./src/event-emitter.ts

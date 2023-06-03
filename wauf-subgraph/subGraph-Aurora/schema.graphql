@@ -1,0 +1,8 @@
+type SupplyChainLog @entity(immutable: true) {
+  id: Bytes!
+  name: String! # string
+  supplyChain: String! # string
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}

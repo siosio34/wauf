@@ -1,0 +1,8 @@
+{
+  "gnosis": {
+    "EventEmitter": {
+      "address": "0x9079265ebc2ec6328e72E39123B2591cdF8Ed962",
+      "startBlock": 28273279
+    }
+  }
+}

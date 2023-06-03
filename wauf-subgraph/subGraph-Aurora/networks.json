@@ -1,0 +1,8 @@
+{
+  "aurora-testnet": {
+    "EventEmitter": {
+      "address": "0x82cf45b965c8CA1a55C6990D49Cf788495EA530B",
+      "startBlock": 128180551
+    }
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+typechain
+typechain-types
+generated
+# Hardhat files
+cache
+artifacts
+
