@@ -1,0 +1,5 @@
+sources:
+  - name: event-emiiter
+    handler:
+      graphql:
+        endpoint: https://api.studio.thegraph.com/query/47828/supply-chain-gnosisv2/version/latest
